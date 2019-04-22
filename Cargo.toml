@@ -2,6 +2,9 @@
 name = "rise-rust-client"
 version = "0.1.0"
 authors = ["1indian <1.indian.in.eu@gmail.com>"]
-edition = "2018"
+description = "Rust API Client for RISE Blockchain"
 
-[dependencies]
+[lib]
+name = "rise_rust_client"
+path = "src/lib.rs"
+doctest = false
